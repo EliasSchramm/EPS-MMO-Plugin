@@ -1,5 +1,57 @@
-name: EPSRL
-version: ${project.version}
+name: EPS-MMO
+version: 0.1 (Build ${buildNumber})
 main: de.epsdev.plugins.MMO.MAIN.main
 authors: [EliasSchramm]
 description: A plugin
+commands:
+  money:
+    description: Doing money stuff
+    aliases: [m, gold]
+
+  npc:
+    description: ...
+
+  menu:
+    description:
+      Shows the ingame menu
+
+  houses:
+    description: Showing the players their houses.
+    aliases: [ hauses, hoses ]
+
+  rank:
+    description: Doing Rank stuff
+    aliases: [r,ranks]
+
+  mutechat:
+    description: De/Muting the chat.
+
+  cheatmenu:
+    description: Cheats
+
+  rlc:
+    description: Reload the server.
+
+  gmc:
+    description: Change gamemode to creative
+
+  gms:
+    description: Change gamemode to survival
+
+  gmspec:
+    description: Change gamemode to spectator
+
+  regions:
+    description: Handle regions
+
+  createregion:
+    description: Create Regions
+
+  createcity:
+    description: Create cities
+
+  next:
+    description: next
+
+  createhouse:
+    description: Start the house creation process.
